@@ -1,0 +1,11 @@
+/Users/aluno/Projects/projeto_lista/projeto_lista/bin/Debug/netcoreapp2.1/projeto_lista.deps.json
+/Users/aluno/Projects/projeto_lista/projeto_lista/bin/Debug/netcoreapp2.1/projeto_lista.runtimeconfig.json
+/Users/aluno/Projects/projeto_lista/projeto_lista/bin/Debug/netcoreapp2.1/projeto_lista.runtimeconfig.dev.json
+/Users/aluno/Projects/projeto_lista/projeto_lista/bin/Debug/netcoreapp2.1/projeto_lista.dll
+/Users/aluno/Projects/projeto_lista/projeto_lista/bin/Debug/netcoreapp2.1/projeto_lista.pdb
+/Users/aluno/Projects/projeto_lista/projeto_lista/obj/Debug/netcoreapp2.1/projeto_lista.csprojAssemblyReference.cache
+/Users/aluno/Projects/projeto_lista/projeto_lista/obj/Debug/netcoreapp2.1/projeto_lista.csproj.CoreCompileInputs.cache
+/Users/aluno/Projects/projeto_lista/projeto_lista/obj/Debug/netcoreapp2.1/projeto_lista.AssemblyInfoInputs.cache
+/Users/aluno/Projects/projeto_lista/projeto_lista/obj/Debug/netcoreapp2.1/projeto_lista.AssemblyInfo.cs
+/Users/aluno/Projects/projeto_lista/projeto_lista/obj/Debug/netcoreapp2.1/projeto_lista.dll
+/Users/aluno/Projects/projeto_lista/projeto_lista/obj/Debug/netcoreapp2.1/projeto_lista.pdb
