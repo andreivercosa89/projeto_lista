@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace projeto_lista
@@ -7,18 +8,26 @@ namespace projeto_lista
     {
         static void Main(string[] args)
         {
-            string[] nomes = new string[3];
-            nomes[0] = "Andrei";
-            nomes[1] = "Sofia";
-            nomes[2] = "Darcy";
+            List<String> lista = new List<string>();
 
-            var listaNomes = nomes.ToList();
-            listaNomes.Remove("Darcy");
+            lista.Add("Maria");
+            lista.Add("Joaquina");
+            lista.Add("Raimunda");
 
-            foreach(string el in listaNomes)
-            {
-                Console.WriteLine("Nome: " + el);
+            Console.Write(lista.Count);
+
+            Console.WriteLine("Informe mais um valor par a lista");
+            lista.Add(Console.ReadLine());
+
+            Console.WriteLine("Informe o nome para de elimindo lista");
+            lista.Remove(Console.ReadLine());
+
+
+            foreach (var e in lista){
+                Console.WriteLine("Lista: " + e);
             }
+
+            Console.Write(lista.Count);
 
         }
     }
