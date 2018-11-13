@@ -9,33 +9,26 @@ namespace projeto_lista
         static void Main(string[] args)
         {
             string texto="";
-            int qtdant;
+            var nomes="";
             List<string> lista = new List<string>();
 
 
             do
             {
                 Console.Write("Informe o nome a ser add: ");
-                lista.Add(Console.ReadLine().Trim());
+                nomes = Console.ReadLine().Trim().ToUpper();
 
-                Console.Write("Digite Sair ou der enter par continuar : ");
+                if(!lista.Contains(nomes)) lista.Add(nomes);
+                else Console.WriteLine("Nome ja informado."); 
+
+                Console.Write("Digite sair ou der enter para continuar : ");
                 texto = Console.ReadLine();
                 Console.Clear();
 
             } while (texto != "sair");
 
-            qtdant = lista.Count();
 
-                Console.Write("Informe o nome a ser eliminado: ");
-                lista.Remove(Console.ReadLine());
-
-            Console.Clear();
-            foreach(var l in lista){
-                Console.Write(" " + l);
-            }
-
-            Console.WriteLine("\nHaviam {0} numeros agora ha {1}", qtdant, lista.Count);
-
+            foreach(var l in lista) Console.Write(" " + l);
 
         }
     }
