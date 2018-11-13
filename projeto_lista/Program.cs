@@ -11,6 +11,8 @@ namespace projeto_lista
             string texto="";
             var nomes="";
             List<string> lista = new List<string>();
+            List<string> listaant = new List<string>();
+
 
 
             do
@@ -23,12 +25,20 @@ namespace projeto_lista
 
                 Console.Write("Digite sair ou der enter para continuar : ");
                 texto = Console.ReadLine();
-                Console.Clear();
+                //Console.Clear();
 
             } while (texto != "sair");
 
+            listaant = lista.ToList();
 
-            foreach(var l in lista) Console.Write(" " + l);
+            Console.Write("Informe o nome a ser eliminado: ");
+            lista.Remove(Console.ReadLine().ToUpper());
+
+
+            Console.Write("Lista antes:\n");
+            foreach (var l in listaant) { Console.Write(" " + l); }
+            Console.Write("\n\nLista atual:\n");
+            foreach (var l in lista) { Console.Write(" " + l); }
 
         }
     }
